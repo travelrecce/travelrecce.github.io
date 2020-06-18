@@ -11,6 +11,33 @@
       }
       img {
         border-radius: 5px;
+        height: 100%;
+      }
+      .imgContainer {
+        padding: 5px;
+      }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .scrollContainer {
+          height: 75%;
+          display: flex;
+          flex-wrap: nowrap;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          -ms-overflow-style: -ms-autohiding-scrollbar; 
+        }
+      }
+      @media screen and (min-width: 800px) {
+        .scrollContainer {
+          height: 55%;
+          display: flex;
+          flex-wrap: nowrap;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          -ms-overflow-style: -ms-autohiding-scrollbar; 
+        }
+      }
+      .scrollItem {
+        flex: 0 0 auto; 
       }
       .container {
         padding-left: 5px;
@@ -88,10 +115,10 @@
         cursor: pointer;
         font-size: 25px;
       }
-	button:hover {
-		background-color: grey;
-		color: white;
-	}
+			button:hover {
+				background-color: grey;
+				color: white;
+			}
     </style>
   </head>
   <body>
@@ -110,6 +137,35 @@
       <h3>
         In a sentence, travel recce is an iOS travel app designed for the curation, and execution of the perfect day out.
       </h3>
+      <br>
+      <div class="scrollContainer">
+        <div class="scrollItem">
+          <div class="imgContainer">
+            <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/example_trip_2_b_v_0_0_4.jpg"></img>
+          </div>
+        </div>
+        <div class="scrollItem">
+          <div class="imgContainer">
+            <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/example_trip_3_b_v_0_0_4.jpg"></img>
+          </div>
+        </div>
+        <div class="scrollItem">
+          <div class="imgContainer">
+            <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/example_trip_4_b_v_0_0_4.jpg"></img>
+          </div>
+        </div>
+        <div class="scrollItem">
+          <div class="imgContainer">
+            <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/example_trip_5_b_v_0_0_4.jpg"></img>
+          </div>
+        </div>
+        <div class="scrollItem">
+          <div class="imgContainer">
+            <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/example_trip_b_v_0_0_4.jpg"></img>
+          </div>
+        </div>
+      </div>
+      <br>
       <h3>
         The user is guided to build a trip, with a starting location of anywhere in the world, and to add destinations to their trip via an interactive map.
       </h3>
