@@ -21,11 +21,21 @@
         border-radius: 5px;
         background-color: grey;
       }
-      h1 {
-        color: white;
-        font-weight: 400;
-        font-size: 45px;
-        font-family: Helvetica, Arial, sans-serif;
+      @media screen and (min-width: 400px) {
+        h1 {
+          color: white;
+          font-weight: 400;
+          font-size: 75px;
+          font-family: Helvetica, Arial, sans-serif;
+        }
+      }
+      @media screen and (min-width: 800px) {
+        h1 {
+          color: white;
+          font-weight: 400;
+          font-size: 45px;
+          font-family: Helvetica, Arial, sans-serif;
+        }
       }
       h2 {
         color: white;
@@ -63,17 +73,32 @@
         padding-left: 10px;
         display: table-cell;
       }
-      button {
-				background-color: white;
-				color: black;
-				padding: 8px 10px;
-				border: none;
-				border-radius: 10px;
-        width: 90vw;
-        height: 50px;
-				cursor: pointer;
-        font-size: 25px;
-			}
+      @media screen and (min-width: 400px) {
+        button {
+          background-color: white;
+          color: black;
+          padding: 8px 10px;
+          border: none;
+          border-radius: 10px;
+          width: 90vw;
+          height: 50px;
+          cursor: pointer;
+          font-size: 30px;
+        }
+      }
+      @media screen and (min-width: 800px) {
+        button {
+          background-color: white;
+          color: black;
+          padding: 8px 10px;
+          border: none;
+          border-radius: 10px;
+          width: 90vw;
+          height: 50px;
+          cursor: pointer;
+          font-size: 25px;
+        }
+      }
 			button:hover {
 				background-color: grey;
 				color: white;
@@ -85,7 +110,7 @@
       travel recce
     </h1>
     <form action="https://testflight.apple.com/join/6JwXSF8F">
-      <button class="button">Download public beta v0.0.4 for iOS</button>
+      <button class="button">Public beta v0.0.4 for iOS</button>
     </form>
     <div class="container">
       <h2>
