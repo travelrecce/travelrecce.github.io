@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='icon' href='https://raw.githubusercontent.com/jakesq/squaredassets/master/Icon-128.png' type='image/x-icon'>
     <style>
-      body {
-        background-color: black;
-        padding: 20px;
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        body {
+          background-color: black;
+          padding: 10px;
+        }
+      }
+      @media screen and (min-width: 800px) {
+        body {
+          background-color: black;
+          padding: 20px;
+        }
       }
       img {
         border-radius: 5px;
@@ -39,7 +47,7 @@
       @media only screen and (min-width: 200px) and (max-width: 767px) {
         .scrollItem {
           flex: 0 0 auto; 
-          height: 110%;
+          height: 135%;
         }
       }
       @media screen and (min-width: 800px) {
