@@ -8,7 +8,7 @@
       @media only screen and (min-width: 200px) and (max-width: 767px) {
         body {
           background-color: black;
-          padding-top: 0px;
+          padding-top: 10px;
           padding-left: 10px;
           padding-right: 10px;
         }
@@ -20,11 +20,8 @@
         }
       }
       img {
-        border-radius: 5px;
-        height: 85%;
-      }
-      .imgContainer {
-        padding: 5px;
+        border: 3px solid white;
+        width: 200px;
       }
       @media only screen and (min-width: 200px) and (max-width: 767px) {
         .scrollContainer {
@@ -95,6 +92,7 @@
           font-weight: 400;
           font-size: 60px;
           margin-bottom: 10px;
+          margin-top: 10px;
           padding: 0px;
           font-family: Helvetica, Arial, sans-serif;
         }
@@ -137,6 +135,15 @@
         padding: 0px;
         font-family: Helvetica, Arial, sans-serif;
       }
+      h5 {
+        color: grey;
+        font-weight: 200;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px;
+        font-family: Helvetica, Arial, sans-serif;
+      }
       .customRow {
         display: table;
         table-layout: fixed; /*Optional*/
@@ -145,8 +152,19 @@
         padding-left: 10px;
         display: table-cell;
       }
-      button {
+      .betaButton {
         background-color: #2096F3;
+        color: white;
+        padding: 8px 10px;
+        border: none;
+        border-radius: 10px;
+        width: 90vw;
+        height: 50px;
+        cursor: pointer;
+        font-size: 25px;
+      }
+      .guideButton {
+        background-color: #9EE07C;
         color: white;
         padding: 8px 10px;
         border: none;
@@ -163,12 +181,19 @@
     </style>
   </head>
   <body>
+    <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/image_small.png"></img>
     <h1>
       travel recce
     </h1>
     <form action="https://testflight.apple.com/join/6JwXSF8F">
-      <button class="button">Public beta v0.0.4 for iOS</button>
+      <button class="betaButton">Public beta v0.0.4 for iOS</button>
     </form>
+    <form action="userguide.html">
+      <button class="guideButton">Travel Recce User Guide</button>
+    </form>
+    <h5>
+      this webpage is a work in progress
+    </h5>
     <div class="container">
       <br>
       <h2>
@@ -178,65 +203,6 @@
       <h3>
         In a sentence, travel recce is an iOS travel app designed for the curation, and execution of the perfect day out.
       </h3>
-      <br>
-      <div class="scrollContainer">
-        <div class="scrollItem">
-          <div class="imgContainer">
-            <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/example_trip_2_b_v_0_0_4.jpg"></img>
-          </div>
-          <br>
-          <div class="captionContainer">
-            <h3>
-              plan your trip for anywhere on earth
-            </h3>
-          </div>
-        </div>
-        <div class="scrollItem">
-          <div class="imgContainer">
-            <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/example_trip_3_b_v_0_0_4.jpg"></img>
-          </div>
-          <br>
-          <div class="captionContainer">
-            <h3>
-              choose from thousands of locations
-            </h3>
-          </div>
-        </div>
-        <div class="scrollItem">
-          <div class="imgContainer">
-            <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/example_trip_4_b_v_0_0_4.jpg"></img>
-          </div>
-          <br>
-          <div class="captionContainer">
-            <h3>
-              research your locations
-            </h3>
-          </div>
-        </div>
-        <div class="scrollItem">
-          <div class="imgContainer">
-            <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/example_trip_5_b_v_0_0_4.jpg"></img>
-          </div>
-          <br>
-          <div class="captionContainer">
-            <h3>
-              personalise your trip
-            </h3>
-          </div>
-        </div>
-        <div class="scrollItem">
-          <div class="imgContainer">
-            <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/example_trip_b_v_0_0_4.jpg"></img>
-          </div>
-          <br>
-          <div class="captionContainer">
-            <h3>
-              play your trip as a virtual travel guide
-            </h3>
-          </div>
-        </div>
-      </div>
-
       <h3>
         The user is guided to build a trip, with a starting location of anywhere in the world, and to add destinations to their trip via an interactive map.
       </h3>
