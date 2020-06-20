@@ -6,15 +6,20 @@
     <link rel='icon' href='https://raw.githubusercontent.com/jakesq/squaredassets/master/Icon-128.png' type='image/x-icon'>
     <style>
       @media only screen and (min-width: 200px) and (max-width: 767px) {
-        body {
-          background-color: black;
+        .paddedBody {
+          padding-left: 15px;
+          padding-right: 15px;
           padding-top: 10px;
-          padding-left: 10px;
-          padding-right: 10px;
+          padding-bottom: 10px;
         }
         .centerContainer {
           width: 100%;
           text-align: center;
+        }
+        .topNavBar {
+          background-color: #212121;
+          padding: 10px;
+          height: 35px;
         }
         .scrollContainer {
           width: 98%;
@@ -54,13 +59,22 @@
         }
       }
       @media screen and (min-width: 800px) {
-        body {
-          background-color: black;
-          padding: 20px;
+        .paddedBody {
+          padding-left: 20px;
+          padding-top: 20px;
+          padding-bottom: 20px;
         }
         .centerContainer {
           width: 100%;
           text-align: left;
+        }
+        .topNavBar {
+          background-color: #212121;
+          padding-left: 20px;
+          padding-right: 10px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          height: 35px;
         }
         .scrollContainer {
           width: 98%;
@@ -100,6 +114,11 @@
           display: table-cell;
           width: 45%;
         }
+      }
+      body {
+        background-color: black;
+        padding: 0px;
+        margin: 0;
       }
       h2 {
         color: white;
@@ -169,7 +188,7 @@
         font-size: 25px;
       }
       .guideButton {
-        background-color: #9EE07C;
+        background-color: #8EC96F;
         color: white;
         padding: 8px 10px;
         border: none;
@@ -187,143 +206,147 @@
   </head>
   <body>
     <div class="centerContainer">
-      <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/image_small.png"></img>
-    </div>
-    <div class="centerContainer">
-      <h1>
-        travel recce
-      </h1>
-      <h5>
-        this webpage is a work in progress
-      </h5>
-      <form action="https://testflight.apple.com/join/6JwXSF8F">
-        <button class="betaButton">Public beta v0.0.4 for iOS</button>
-      </form>
-      <form action="userguide.html">
-        <button class="guideButton">Travel Recce User Guide</button>
-      </form>
-    </div>
-    <div class="container">
-      <br>
-      <h2>
-        What is travel recce?
-      </h2>
-      <div class="containerDivider"></div>
-      <h3>
-        In a sentence, travel recce is an iOS travel app designed for the curation, and execution of the perfect day out.
-      </h3>
-      <h3>
-        The user is guided to build a trip, with a starting location of anywhere in the world, and to add destinations to their trip via an interactive map.
-      </h3>
-      <h3>
-        Once the user has curated their trip with a custom name and description, they are encouraged to add notes to each destination. For instance, 'get souvenirs from the museum'.
-      </h3>
-      <h3>
-        Finally, the user is able to view and play their trip on an interactive map, and choose to share the trip with their followers (coming soon).
-      </h3>
-      <br>
-      <div class="contentContainer">
-        <div class="content">
-          <h2>
-            Implemented
-          </h2>
-          <div class="containerDivider"></div>
-          <ul>
-            <li>
-              <h3>
-                Trip creation/deletion
-              </h3>
-            </li>
-            <li>
-              <h3>
-                Adding/removing destinations to/from user defined trip
-              </h3>
-            </li>
-            <li>
-              <h3>
-                Location/destination mapping
-              </h3>
-            </li>
-            <li>
-              <h3>
-                Working search parameters for destinations - location search distance, establishment type
-              </h3>
-            </li>
-            <li>
-              <h3>
-                Dynamic map settings for different GPS views and live traffic conditions
-              </h3>
-            </li>
-            <li>
-              <h3>
-                Read existing google reviews for each destination
-              </h3>
-            </li>
-            <li>
-              <h3>
-                Visit a destination's website for more info
-              </h3>
-            </li>
-            <li>
-              <h3>
-                View a trip on the map, with destination lines between each waypoint
-              </h3>
-            </li>
-          </ul>
-        </div>
-        <div class="content">
-          <h2>
-            Yet to be implemented
-          </h2>
-          <div class="containerDivider"></div>
-          <ul>
-            <li>
-              <h3>
-                Create a travel recce social profile
-              </h3>
-            </li>
-            <li>
-              <h3>
-                Sharing of user trips to their profile
-              </h3>
-            </li>
-            <li>
-              <h3>
-                Allow commenting on shared trips via travel recce social
-              </h3>
-            </li>
-            <li>
-              <h3>
-                View nearby and trending destinations without creating a trip
-              </h3>
-            </li>
-            <li>
-              <h3>
-                Suggest destinations during trip curation
-              </h3>
-            </li>
-            <li>
-              <h3>
-                Extra destination search parameters - search by popularity, price, closest to user
-              </h3>
-            </li>
-          </ul>
-        </div>
+      <div class="topNavBar">
+        <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/image_small.png"></img>
       </div>
-      <br>
-      <h2>
-        Changelog
-      </h2>
-      <div class="containerDivider"></div>
-      <h2>
-        Version 0.0.4 [build 25]
-      </h2>
-      <h2>
-        Version 0.0.3 [build 23]
-      </h2>
-      <h2>
-        Version 0.0.2 [build 19] May 5, 2020
-      </h2>
+    </div>
+    <div class="paddedBody">
+      <div class="centerContainer">
+        <h1>
+          travel recce
+        </h1>
+        <h5>
+          this webpage is a work in progress
+        </h5>
+        <form action="https://testflight.apple.com/join/6JwXSF8F">
+          <button class="betaButton">Public beta v0.0.4 for iOS</button>
+        </form>
+        <form action="userguide.html">
+          <button class="guideButton">Travel Recce User Guide</button>
+        </form>
+      </div>
+      <div class="container">
+        <br>
+        <h2>
+          What is travel recce?
+        </h2>
+        <div class="containerDivider"></div>
+        <h3>
+          In a sentence, travel recce is an iOS travel app designed for the curation, and execution of the perfect day out.
+        </h3>
+        <h3>
+          The user is guided to build a trip, with a starting location of anywhere in the world, and to add destinations to their trip via an interactive map.
+        </h3>
+        <h3>
+          Once the user has curated their trip with a custom name and description, they are encouraged to add notes to each destination. For instance, 'get souvenirs from the museum'.
+        </h3>
+        <h3>
+          Finally, the user is able to view and play their trip on an interactive map, and choose to share the trip with their followers (coming soon).
+        </h3>
+        <br>
+        <div class="contentContainer">
+          <div class="content">
+            <h2>
+              Implemented
+            </h2>
+            <div class="containerDivider"></div>
+            <ul>
+              <li>
+                <h3>
+                  Trip creation/deletion
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  Adding/removing destinations to/from user defined trip
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  Location/destination mapping
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  Working search parameters for destinations - location search distance, establishment type
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  Dynamic map settings for different GPS views and live traffic conditions
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  Read existing google reviews for each destination
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  Visit a destination's website for more info
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  View a trip on the map, with destination lines between each waypoint
+                </h3>
+              </li>
+            </ul>
+          </div>
+          <div class="content">
+            <h2>
+              Yet to be implemented
+            </h2>
+            <div class="containerDivider"></div>
+            <ul>
+              <li>
+                <h3>
+                  Create a travel recce social profile
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  Sharing of user trips to their profile
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  Allow commenting on shared trips via travel recce social
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  View nearby and trending destinations without creating a trip
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  Suggest destinations during trip curation
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  Extra destination search parameters - search by popularity, price, closest to user
+                </h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br>
+        <h2>
+          Changelog
+        </h2>
+        <div class="containerDivider"></div>
+        <h2>
+          Version 0.0.4 [build 25]
+        </h2>
+        <h2>
+          Version 0.0.3 [build 23]
+        </h2>
+        <h2>
+          Version 0.0.2 [build 19] May 5, 2020
+        </h2>
+      </div>
     </div>
   </body>
 </html>
