@@ -12,19 +12,10 @@
           padding-left: 10px;
           padding-right: 10px;
         }
-      }
-      @media screen and (min-width: 800px) {
-        body {
-          background-color: black;
-          padding: 20px;
+        .centerContainer {
+          width: 100%;
+          text-align: center;
         }
-      }
-      img {
-        border: 2px solid white;
-        width: 150px;
-        margin-bottom: 20px;
-      }
-      @media only screen and (min-width: 200px) and (max-width: 767px) {
         .scrollContainer {
           width: 98%;
           display: flex;
@@ -33,30 +24,10 @@
           -webkit-overflow-scrolling: touch;
           -ms-overflow-style: -ms-autohiding-scrollbar; 
         }
-      }
-      @media screen and (min-width: 800px) {
-        .scrollContainer {
-          width: 98%;
-          display: flex;
-          flex-wrap: nowrap;
-          overflow-x: auto;
-          -webkit-overflow-scrolling: touch;
-          -ms-overflow-style: -ms-autohiding-scrollbar; 
-        }
-      }
-      @media only screen and (min-width: 200px) and (max-width: 767px) {
         .scrollItem {
           flex: 0 0 auto; 
           height: 135%;
         }
-      }
-      @media screen and (min-width: 800px) {
-        .scrollItem {
-          flex: 0 0 auto; 
-          height: 75%;
-        }
-      }
-      @media only screen and (min-width: 200px) and (max-width: 767px) {
         .captionContainer {
           padding: 5px;
           width: 95%;
@@ -66,28 +37,6 @@
           text-align: center;
           float: right;
         }
-      }
-      @media screen and (min-width: 800px) {
-        .captionContainer {
-          padding: 5px;
-          width: 95%;
-          height: 43px;
-          border-radius: 15px;
-          background-color: #212121;
-          text-align: center;
-          float: right;
-        }
-      }
-      .container {
-        padding-left: 5px;
-      }
-      .containerDivider {
-        width: 100px;
-        height: 2px;
-        border-radius: 5px;
-        background-color: grey;
-      }
-      @media only screen and (min-width: 200px) and (max-width: 767px) {
         h1 {
           color: white;
           font-weight: 400;
@@ -97,16 +46,59 @@
           padding: 0px;
           font-family: Helvetica, Arial, sans-serif;
         }
+        .contentContainer {
+          width: 100%;
+        }
+        .content {
+          width: 100%;
+        }
       }
       @media screen and (min-width: 800px) {
+        body {
+          background-color: black;
+          padding: 20px;
+        }
+        .centerContainer {
+          width: 100%;
+          text-align: left;
+        }
+        .scrollContainer {
+          width: 98%;
+          display: flex;
+          flex-wrap: nowrap;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          -ms-overflow-style: -ms-autohiding-scrollbar; 
+        }
+        .scrollItem {
+          flex: 0 0 auto; 
+          height: 75%;
+        }
+        .captionContainer {
+          padding: 5px;
+          width: 95%;
+          height: 43px;
+          border-radius: 15px;
+          background-color: #212121;
+          text-align: center;
+          float: right;
+        }
         h1 {
           color: white;
           font-weight: 400;
           font-size: 45px;
-          margin-bottom: 10px;
+          margin-bottom: 0px;
           margin-top: 5px;
           padding: 0px;
           font-family: Helvetica, Arial, sans-serif;
+        }
+        .contentContainer {
+          width: 100%;
+          display: table;
+        }
+        .content {
+          display: table-cell;
+          width: 45%;
         }
       }
       h2 {
@@ -127,24 +119,35 @@
         padding: 0px;
         font-family: Helvetica, Arial, sans-serif;
       }
-      h4 {
-        color: grey;
-        font-weight: 200;
-        font-size: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        padding: 0px;
-        font-family: Helvetica, Arial, sans-serif;
-      }
       h5 {
         color: grey;
         font-weight: 200;
         font-size: 15px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 0px;
+        margin-bottom: 15px;
         padding: 0px;
         font-family: Helvetica, Arial, sans-serif;
+      }
+      img {
+        border: 2px solid white;
+        width: 150px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      ul {
+        padding-left: 30px;
+      }
+      li {
+        color: white;
+      }
+      .container {
+        padding-left: 5px;
+      }
+      .containerDivider {
+        width: 100px;
+        height: 2px;
+        border-radius: 5px;
+        background-color: grey;
       }
       .customRow {
         display: table;
@@ -160,7 +163,7 @@
         padding: 8px 10px;
         border: none;
         border-radius: 10px;
-        width: 90vw;
+        width: 310px;
         height: 50px;
         cursor: pointer;
         font-size: 25px;
@@ -171,7 +174,7 @@
         padding: 8px 10px;
         border: none;
         border-radius: 10px;
-        width: 90vw;
+        width: 310px;
         height: 50px;
         cursor: pointer;
         font-size: 25px;
@@ -183,19 +186,23 @@
     </style>
   </head>
   <body>
-    <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/image_small.png"></img>
-    <form action="https://testflight.apple.com/join/6JwXSF8F">
-      <button class="betaButton">Public beta v0.0.4 for iOS</button>
-    </form>
-    <form action="userguide.html">
-      <button class="guideButton">Travel Recce User Guide</button>
-    </form>
-    <h1>
-      travel recce
-    </h1>
-    <h5>
-      this webpage is a work in progress
-    </h5>
+    <div class="centerContainer">
+      <img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/image_small.png"></img>
+    </div>
+    <div class="centerContainer">
+      <h1>
+        travel recce
+      </h1>
+      <h5>
+        this webpage is a work in progress
+      </h5>
+      <form action="https://testflight.apple.com/join/6JwXSF8F">
+        <button class="betaButton">Public beta v0.0.4 for iOS</button>
+      </form>
+      <form action="userguide.html">
+        <button class="guideButton">Travel Recce User Guide</button>
+      </form>
+    </div>
     <div class="container">
       <br>
       <h2>
@@ -215,57 +222,94 @@
         Finally, the user is able to view and play their trip on an interactive map, and choose to share the trip with their followers (coming soon).
       </h3>
       <br>
-      <h2>
-        Implemented
-      </h2>
-      <div class="containerDivider"></div>
-      <h4>
-        - Trip creation/deletion
-      </h4>
-      <h4>
-        - Adding/removing destinations to/from user defined trip
-      </h4>
-      <h4>
-        - Location/destination mapping
-      </h4>
-      <h4>
-        - Working search parameters for destinations - location search distance, establishment type
-      </h4>
-      <h4>
-        - Dynamic map settings for different GPS views and live traffic conditions
-      </h4>
-      <h4>
-        - Read existing google reviews for each destination
-      </h4>
-      <h4>
-        - Visit a destination's website for more info
-      </h4>
-      <h4>
-        - View a trip on the map, with destination lines between each waypoint
-      </h4>
-      <br>
-      <h2>
-        Yet to be implemented
-      </h2>
-      <div class="containerDivider"></div>
-      <h4>
-        - Create a travel recce social profile
-      </h4>
-      <h4>
-        - Sharing of user trips to their profile
-      </h4>
-      <h4>
-        - Allow commenting on shared trips via travel recce social
-      </h4>
-      <h4>
-        - View nearby and trending destinations without creating a trip
-      </h4>
-      <h4>
-        - Suggest destinations during trip curation
-      </h4>
-      <h4>
-        - Extra destination search parameters - search by popularity, price, closest to user
-      </h4>
+      <div class="contentContainer">
+        <div class="content">
+          <h2>
+            Implemented
+          </h2>
+          <div class="containerDivider"></div>
+          <ul>
+            <li>
+              <h3>
+                Trip creation/deletion
+              </h3>
+            </li>
+            <li>
+              <h3>
+                Adding/removing destinations to/from user defined trip
+              </h3>
+            </li>
+            <li>
+              <h3>
+                Location/destination mapping
+              </h3>
+            </li>
+            <li>
+              <h3>
+                Working search parameters for destinations - location search distance, establishment type
+              </h3>
+            </li>
+            <li>
+              <h3>
+                Dynamic map settings for different GPS views and live traffic conditions
+              </h3>
+            </li>
+            <li>
+              <h3>
+                Read existing google reviews for each destination
+              </h3>
+            </li>
+            <li>
+              <h3>
+                Visit a destination's website for more info
+              </h3>
+            </li>
+            <li>
+              <h3>
+                View a trip on the map, with destination lines between each waypoint
+              </h3>
+            </li>
+          </ul>
+        </div>
+        <div class="content">
+          <h2>
+            Yet to be implemented
+          </h2>
+          <div class="containerDivider"></div>
+          <ul>
+            <li>
+              <h3>
+                Create a travel recce social profile
+              </h3>
+            </li>
+            <li>
+              <h3>
+                Sharing of user trips to their profile
+              </h3>
+            </li>
+            <li>
+              <h3>
+                Allow commenting on shared trips via travel recce social
+              </h3>
+            </li>
+            <li>
+              <h3>
+                View nearby and trending destinations without creating a trip
+              </h3>
+            </li>
+            <li>
+              <h3>
+                Suggest destinations during trip curation
+              </h3>
+            </li>
+            <li>
+              <h3>
+                Extra destination search parameters - search by popularity, price, closest to user
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </div>
       <br>
       <h2>
         Changelog
