@@ -1,7 +1,7 @@
 {
     "suggested": {
-        “London”,
-        “New York”,
-        “Paris”
+        "address": "London",
+        "address": "New York",
+        "address": "Paris"
     },
 }
