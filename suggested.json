@@ -1,41 +1,51 @@
 [
     {
+        "text": "london",
         "address": "London, UK",
         "description": "A bold and historic city, well known for its rich and diverse culture as well as its nightlife"
     },
     {
+        "text": "new_york",
         "address": "New York, USA",
         "description": "A historic city and a cornerstone of mainstream USA. New York has a diverse culture with different accents and walks of life on every street"
     },
     {
+        "text": "paris",
         "address": "Paris, France",
         "description": "Also referred to as the city of love, boasts a historic culture, stunning architecture and a high attraction from couples around the world for its romantic appeal"
     },
     {
+        "text": "vancouver",
         "address": "Vancouver, CA",
         "description": "literally null"
     },
     {
+        "text": "dubai",
         "address": "Dubai, UAE",
         "description": "literally null"
     },
     {
+        "text": "bangkok",
         "address": "Bangkok, Thailand",
         "description": "literally null"
     },
     {
+        "text": "singapore",
         "address": "Singapore",
         "description": "literally null"
     },
     {
+        "text": "sydney",
         "address": "Sydney, Australia",
         "description": "literally null"
     },
     {
+        "text": "san_francisco",
         "address": "San Francisco, USA",
         "description": "literally null"
     },
     {
+        "text": "amsterdam",
         "address": "Amsterdam, NL",
         "description": "literally null"
     }
