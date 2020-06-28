@@ -4,21 +4,21 @@
         "lat": 51.507351,
         "lng": -0.127758,
         "address": "London, UK",
-        "description": "A bold and historic city, well known for its rich and diverse culture as well as its nightlife"
+        "description": "A bold and historic city; London is well known for its diverse culture, art galleries, museums and architectural heritage. Not forgetting to mention the luxurious shopping experiences and ecstatic nightlife."
     },
     {
         "text": "new_york",
         "lat": 40.712776,
         "lng": -74.005974,
         "address": "New York, USA",
-        "description": "A historic city and a cornerstone of mainstream USA. New York has a diverse culture with different accents and walks of life on every street"
+        "description": "A historic city and a cornerstone of mainstream USA. New York has a diverse culture with different accents and walks of life on every street."
     },
     {
         "text": "paris",
         "lat": 48.856613,
         "lng": 2.352222,
         "address": "Paris, France",
-        "description": "Also referred to as the city of love, boasts a historic culture, stunning architecture and a high attraction from couples around the world for its romantic appeal"
+        "description": "Also referred to as the city of love, boasts a historic culture, stunning architecture and a high attraction from couples around the world for its romantic appeal."
     },
     {
         "text": "vancouver",
