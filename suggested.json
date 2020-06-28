@@ -25,48 +25,48 @@
         "lat": 49.282730,
         "lng": -123.120735,
         "address": "Vancouver, CA",
-        "description": "literally null"
+        "description": "yet to be populated"
     },
     {
         "text": "dubai",
         "lat": 25.204849,
         "lng": 55.270782,
         "address": "Dubai, UAE",
-        "description": "literally null"
+        "description": "yet to be populated"
     },
     {
         "text": "bangkok",
         "lat": 13.756331,
         "lng": 100.501762,
         "address": "Bangkok, Thailand",
-        "description": "literally null"
+        "description": "yet to be populated"
     },
     {
         "text": "singapore",
         "lat": 1.352083,
         "lng": 103.819839,
         "address": "Singapore",
-        "description": "literally null"
+        "description": "yet to be populated"
     },
     {
         "text": "sydney",
         "lat": -33.868820,
         "lng": 151.209290,
         "address": "Sydney, Australia",
-        "description": "literally null"
+        "description": "yet to be populated"
     },
     {
         "text": "san_francisco",
         "lat": 37.774929,
         "lng": -122.419418,
         "address": "San Francisco, USA",
-        "description": "literally null"
+        "description": "yet to be populated"
     },
     {
         "text": "amsterdam",
         "lat": 52.370216,
         "lng": 4.895168,
         "address": "Amsterdam, NL",
-        "description": "literally null"
+        "description": "yet to be populated"
     }
 ]
