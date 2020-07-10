@@ -1,1 +1,23 @@
-
+[
+    {
+        "type": "restaurant"
+    },
+    {
+        "type": "accommodation"
+    },
+    {
+        "type": "tourist"
+    },
+    {
+        "type": "amusement"
+    },
+    {
+        "type": "bar"
+    },
+    {
+        "type": "park"
+    },
+    {
+        "type": "zoo"
+    }
+]
