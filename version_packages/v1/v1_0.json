@@ -1,72 +1,17 @@
 [
     {
-        "text": "london",
-        "lat": 51.507351,
-        "lng": -0.127758,
-        "address": "London, UK",
-        "description": "A bold and historic city; London is well known for its diverse culture, art galleries, museums and architectural heritage. Not forgetting to mention the luxurious shopping experiences and ecstatic nightlife."
+        "name": "1st package",
+        "license": "1st license",
+        "link": "1st link"
     },
     {
-        "text": "new_york",
-        "lat": 40.712776,
-        "lng": -74.005974,
-        "address": "New York, USA",
-        "description": "A historic city and a cornerstone of mainstream USA, New York has a diverse culture with different accents and walks of life on every street."
+        "name": "2nd package",
+        "license": "2nd license",
+        "link": "2nd link"
     },
     {
-        "text": "paris",
-        "lat": 48.856613,
-        "lng": 2.352222,
-        "address": "Paris, France",
-        "description": "Also referred to as the city of love, boasts a historic culture, stunning architecture and a high attraction from couples around the world for its romantic appeal."
-    },
-    {
-        "text": "vancouver",
-        "lat": 49.282730,
-        "lng": -123.120735,
-        "address": "Vancouver, CA",
-        "description": "yet to be populated"
-    },
-    {
-        "text": "dubai",
-        "lat": 25.204849,
-        "lng": 55.270782,
-        "address": "Dubai, UAE",
-        "description": "yet to be populated"
-    },
-    {
-        "text": "bangkok",
-        "lat": 13.756331,
-        "lng": 100.501762,
-        "address": "Bangkok, Thailand",
-        "description": "yet to be populated"
-    },
-    {
-        "text": "singapore",
-        "lat": 1.352083,
-        "lng": 103.819839,
-        "address": "Singapore",
-        "description": "yet to be populated"
-    },
-    {
-        "text": "sydney",
-        "lat": -33.868820,
-        "lng": 151.209290,
-        "address": "Sydney, Australia",
-        "description": "yet to be populated"
-    },
-    {
-        "text": "san_francisco",
-        "lat": 37.774929,
-        "lng": -122.419418,
-        "address": "San Francisco, USA",
-        "description": "yet to be populated"
-    },
-    {
-        "text": "amsterdam",
-        "lat": 52.370216,
-        "lng": 4.895168,
-        "address": "Amsterdam, NL",
-        "description": "yet to be populated"
+        "name": "3rd package",
+        "license": "3rd license",
+        "link": "3rd link"
     }
 ]
