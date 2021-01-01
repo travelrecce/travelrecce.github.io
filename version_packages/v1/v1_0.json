@@ -2,7 +2,7 @@
     {
         "name": "1st package",
         "license": "Copyright 2012, the Dart project authors.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met",
-        "link": "1st link"
+        "link": "https://raw.githubusercontent.com/dart-lang/sdk/master/LICENSE"
     },
     {
         "name": "2nd package",
