@@ -1,9 +1,117 @@
 [
     {
-        "name": "Dart",
+        "name": "dart",
         "link": "https://raw.githubusercontent.com/dart-lang/sdk/master/LICENSE"
     },
-    {   "name": "Flutter",
+    {   "name": "flutter",
         "link": "https://raw.githubusercontent.com/flutter/flutter/master/LICENSE"
-    }
+    },
+    {
+        "name": "google_maps_webservice",
+        "link": ""
+    },
+    {
+        "name": "flutter_google_places",
+        "link": ""
+    },
+    {
+        "name": "google_directions_api",
+        "link": ""
+    },
+    {
+        "name": "font_awesome_flutter",
+        "link": ""
+    },
+    {
+        "name": "google_maps_flutter",
+        "link": ""
+    },
+    {
+        "name": "google_map_polyline",
+        "link": ""
+    },
+    {
+        "name": "apple_sign_in",
+        "link": ""
+    },
+    {
+        "name": "flutter_dynamic_icon",
+        "link": ""
+    },
+    {
+        "name": "flutter_cube",
+        "link": ""
+    },
+    {
+        "name": "sliding_sheet",
+        "link": ""
+    },
+    {
+        "name": "firebase_messaging",
+        "link": ""
+    },
+    {
+        "name": "cupertino_icons",
+        "link": ""
+    },
+    {
+        "name": "flutter_rating_bar",
+        "link": ""
+    },
+    {
+        "name": "flutter_swiper",
+        "link": ""
+    },
+    {
+        "name": "snapping_sheet",
+        "link": ""
+    },
+    {
+        "name": "provider",
+        "link": ""
+    },
+    {
+        "name": "flutter_icons",
+        "link": ""
+    },
+    {
+        "name": "cloud_firestore",
+        "link": ""
+    },
+    {
+        "name": "carousel_slider",
+        "link": ""
+    },
+    {
+        "name": "path_provider",
+        "link": ""
+    },
+    {
+        "name": "firebase_auth",
+        "link": ""
+    },
+    {
+        "name": "url_launcher",
+        "link": ""
+    },
+    {
+        "name": "geolocator",
+        "link": ""
+    },
+    {
+        "name": "geocoder",
+        "link": ""
+    },
+    {
+        "name": "sqflite",
+        "link": ""
+    },
+    {
+        "name": "get_it",
+        "link": ""
+    },
+    {
+        "name": "intl",
+        "link": ""
+    }  
 ]
