@@ -96,7 +96,7 @@
     },
     {
         "name": "geocoder",
-        "link": "https://github.com/aloisdeniel/flutter_geocoder/blob/master/LICENSE"
+        "link": "https://raw.githubusercontent.com/aloisdeniel/flutter_geocoder/master/LICENSE"
     },
     {
         "name": "sqflite",
