@@ -8,110 +8,106 @@
     },
     {
         "name": "google_maps_webservice",
-        "link": ""
-    },
-    {
-        "name": "flutter_google_places",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/lejard-h/google_maps_webservice/master/LICENSE"
     },
     {
         "name": "google_directions_api",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/marchdev-tk/google_directions_api/master/LICENSE"
     },
     {
         "name": "font_awesome_flutter",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/fluttercommunity/font_awesome_flutter/master/LICENSE"
     },
     {
         "name": "google_maps_flutter",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/flutter/plugins/master/packages/google_maps_flutter/google_maps_flutter/LICENSE"
     },
     {
         "name": "google_map_polyline",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/Shark01/google_map_polyline/master/LICENSE"
     },
     {
         "name": "apple_sign_in",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/tomgilder/flutter_apple_sign_in/master/LICENSE"
     },
     {
         "name": "flutter_dynamic_icon",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/tastelessjolt/flutter_dynamic_icon/master/LICENSE"
     },
     {
         "name": "flutter_cube",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/zesage/flutter_cube/master/LICENSE"
     },
     {
         "name": "sliding_sheet",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/bnxm/sliding_sheet/master/LICENSE"
     },
     {
         "name": "firebase_messaging",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/FirebaseExtended/flutterfire/master/LICENSE"
     },
     {
         "name": "cupertino_icons",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/flutter/cupertino_icons/master/LICENSE"
     },
     {
         "name": "flutter_rating_bar",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/sarbagyastha/flutter_rating_bar/master/LICENSE"
     },
     {
         "name": "flutter_swiper",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/best-flutter/flutter_swiper/master/LICENSE"
     },
     {
         "name": "snapping_sheet",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/AdamJonsson/snapping_sheet/master/LICENSE"
     },
     {
         "name": "provider",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/rrousselGit/provider/master/LICENSE"
     },
     {
         "name": "flutter_icons",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/flutter-studio/flutter-icons/master/LICENSE"
     },
     {
         "name": "cloud_firestore",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/FirebaseExtended/flutterfire/master/packages/cloud_firestore/cloud_firestore/LICENSE"
     },
     {
         "name": "carousel_slider",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/serenader2014/flutter_carousel_slider/master/LICENSE"
     },
     {
         "name": "path_provider",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/flutter/plugins/master/packages/path_provider/path_provider/LICENSE"
     },
     {
         "name": "firebase_auth",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/FirebaseExtended/flutterfire/master/packages/firebase_auth/firebase_auth/LICENSE"
     },
     {
         "name": "url_launcher",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/flutter/plugins/master/packages/url_launcher/url_launcher/LICENSE"
     },
     {
         "name": "geolocator",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/Baseflow/flutter-geolocator/master/geolocator/LICENSE"
     },
     {
         "name": "geocoder",
-        "link": ""
+        "link": "https://github.com/aloisdeniel/flutter_geocoder/blob/master/LICENSE"
     },
     {
         "name": "sqflite",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/tekartik/sqflite/master/sqflite/LICENSE"
     },
     {
         "name": "get_it",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/fluttercommunity/get_it/master/LICENSE"
     },
     {
         "name": "intl",
-        "link": ""
+        "link": "https://raw.githubusercontent.com/dart-lang/intl/master/LICENSE"
     }  
 ]
