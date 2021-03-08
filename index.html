@@ -8,11 +8,12 @@
     <meta name="keywords" content="travel, free, ios, apple, app, beta, new, software">
     <link rel='icon' href='https://raw.githubusercontent.com/jakesq/squaredassets/master/Icon-128.png' type='image/x-icon'>
     <style>
-      @media only screen and (min-width: 200px) and (max-width: 799px) {
+      /*desktop below*/
+      @media only screen and (min-width: 1px) and (max-width: 799px) {
         .paddedBody {
           padding-left: 15px;
           padding-right: 15px;
-          height: calc(77.75vh - 50px);
+          height: calc(125vh);
           padding-top: 15px;
           padding-bottom: 10px;
         }
@@ -59,6 +60,7 @@
           width: 100%;
         }
       }
+      /*mobile below*/
       @media screen and (min-width: 800px) {
         .paddedBody {
           padding-left: 20px;
@@ -108,7 +110,18 @@
           display: table-cell;
           width: 45%;
         }
+        .customButtonText {
+          color: grey;
+          font-weight: 200;
+          font-size: 20px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          padding: 0px;
+          font-family: Helvetica, Arial, sans-serif;
+        }
       }
+
+      /*normal below*/
       body {
         background-color: white;
         padding: 0px;
@@ -228,7 +241,7 @@
       a:active {
         color: lightgray;
       }
-      .customText {
+      .customButtonText {
         color: grey;
         font-weight: 200;
         font-size: 20px;
@@ -237,7 +250,16 @@
         padding: 0px;
         font-family: Helvetica, Arial, sans-serif;
       }
-      .customText:hover{
+      .disclaimerText {
+        color: grey;
+        font-weight: 200;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      .customButtonText:hover{
         color: white;
       }
       .customRow{
@@ -283,36 +305,37 @@
           trip creation
         </h2>
         <h3>
-          travelrecce allows you to create a trip based from a starting location of your choice, then build the experience by adding destinations
+          travelrecce allows you to create a trip based from a starting location of your choice, then build the experience by adding destinations.
         </h3>
         <h3>
-          once you've built your perfect trip, you can publish it for your followers to experience themselves
+          once you've built your perfect trip, you can publish it for your followers to experience themselves.
         </h3>
         <br>
         <h2>
           why not just use Tripadvisor?*
         </h2>
         <h3>
-          while that service aims to provide the essential 'tour guide' service found travelrecce, we believe that our tailored, turn-by-turn virtual guide provides new value in this space.
+          while that service aims to provide the essential 'tour guide' service found within travelrecce, we believe that our tailored, turn-by-turn virtual guide provides new value in this space.
+        </h3>
+        <h3>
+          we've also created a more extensive social sphere, allowing users to share experiences as individual units through their profiles.
         </h3>
       </div>
     </div>
-    <div class="centerContainer">
-      <div class="bottomBar">
-        <div class="customRow">
-          <a href="#"><h3 class="customText">terms of service</h3 class="customText"></a>
-          <div class="customDivider"></div>
-          <h3>|</h3>
-          <div class="customDivider"></div>
-          <a href="#"><h3 class="customText">contact</h3 class="customText"></a>
-        </div>
-        <h3>
-          *Squared Software LTD is in no way associated with Tripadvisor, and does not wish to infringe on their properties.
-        </h3>
-        <h3>
-          travelrecce, and its associated properties, are copyright of Squared Software LTD 2021
-        </h3>
+    <div class="bottomBar">
+      <div class="customRow">
+        <a href="#"><h3 class="customButtonText">terms of service</h3></a>
+        <div class="customDivider"></div>
+        <h3>|</h3>
+        <div class="customDivider"></div>
+        <a href="#"><h3 class="customButtonText">contact</h3></a>
       </div>
+      <h3 class="disclaimerText">
+        *Squared Software LTD is in no way associated with Tripadvisor, and does not wish to infringe on their properties.
+      </h3>
+      <h3 class="disclaimerText">
+        travelrecce, and its associated properties, are copyright of Squared Software LTD 2021
+      </h3>
     </div>
   </body>
 </html>
