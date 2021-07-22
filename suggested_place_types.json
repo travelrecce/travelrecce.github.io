@@ -1,23 +1,30 @@
 [
     {
+        "name": "restaurant",
         "type": "restaurant"
     },
     {
-        "type": "accommodation"
+        "name": "accommodation",
+        "type": "lodging"
     },
     {
-        "type": "tourist"
+        "name": "tourist",
+        "type": "tourist_attraction"
     },
     {
-        "type": "amusement"
+        "name": "amusement",
+        "type": "amusement_park"
     },
     {
+        "name": "bar",
         "type": "bar"
     },
     {
+        "name": "park",
         "type": "park"
     },
     {
+        "name": "zoo",
         "type": "zoo"
     }
 ]
