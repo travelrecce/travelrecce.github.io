@@ -1,0 +1,297 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>travelrecce | Known Issues</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="travelrecce" content="travelrecce is an iOS app designed for the curation, and execution of the perfect day out.">
+    <link rel='icon' href='assets/images/favicon.png' type='image/x-icon'>
+    <style>
+    @font-face {
+        font-family: Roboto2;
+        src: url('https://github.com/travelrecce/travelrecce.github.io/blob/master/fonts/Roboto/Roboto-Regular.ttf?raw=true') format('truetype');
+    }
+    @media only screen and (min-width: 200px) and (max-width: 799px) {
+      .paddedBody {
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+      .centerContainer {
+          width: 100%;
+          text-align: center;
+      }
+      .topNavBar {
+          background-color: #3A3A3A;
+          padding-left: 20px;
+          padding-right: 10px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          height: 33.5px;
+      }
+      .scrollContainer {
+          width: 98%;
+          display: flex;
+          flex-wrap: nowrap;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          -ms-overflow-style: -ms-autohiding-scrollbar; 
+      }
+      .scrollItem {
+          flex: 0 0 auto; 
+          height: 135%;
+      }
+      .captionContainer {
+          padding: 5px;
+          width: 95%;
+          height: 65px;
+          border-radius: 15px;
+          background-color: #212121;
+          text-align: center;
+          float: right;
+      }
+      h1 {
+          color: black;
+          font-weight: 400;
+          font-size: 35px;
+          margin-bottom: 10px;
+          margin-top: 5px;
+          padding: 0px;
+          font-family: Roboto2, Arial, sans-serif;
+      }
+      .contentContainer {
+          width: 100%;
+      }
+      .content {
+          width: 100%;
+      }
+    }
+    @media screen and (min-width: 800px) {
+    .paddedBody {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .centerContainer {
+        width: 100%;
+    }
+    .topNavBar {
+        background-color: #3A3A3A;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 33.5px;
+    }
+    .scrollContainer {
+        width: 98%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar; 
+    }
+    .scrollItem {
+        flex: 0 0 auto; 
+        height: 75%;
+    }
+    .captionContainer {
+        padding: 5px;
+        width: 95%;
+        height: 43px;
+        border-radius: 15px;
+        background-color: #212121;
+        text-align: center;
+        float: right;
+    }
+    h1 {
+        color: black;
+        font-weight: 400;
+        font-size: 45px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        font-family: Roboto2, Arial, sans-serif;
+    }
+    .contentContainer {
+        width: 100%;
+        display: table;
+    }
+    .content {
+        display: table-cell;
+        width: 45%;
+    }
+    }
+    body {
+        background-color: white;
+        padding: 0px;
+        margin: 0;
+    }
+    h2 {
+        color: black;
+        font-weight: 400;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px;
+        font-family: Roboto2, Arial, sans-serif;
+    }
+    h3 {
+        color: black;
+        font-weight: 200;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        padding: 0px;
+        font-family: Roboto2, Arial, sans-serif;
+    }
+    .h3Link {
+        color: blue;
+        font-weight: 200;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        padding: 0px;
+        font-family: Roboto2, Arial, sans-serif;
+    }
+    h5 {
+        color: grey;
+        font-weight: 600;
+        font-size: 17.5px;
+        margin: 0px;
+        padding: 0px;
+        font-family: Roboto2, Arial, sans-serif;
+    }
+    h6 {
+        color: grey;
+        font-weight: 200;
+        font-size: 17.5px;
+        margin: 0px;
+        padding: 0px;
+        font-family: Roboto2, Arial, sans-serif;
+    }
+    img {
+        border: 2px solid white;
+        width: 150px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    img:hover {
+        border: 2px solid grey;
+    }
+    ol {
+        padding-left: 27.5px;
+    }
+    li {
+        color: black;
+        font-size: 17.5px;
+        font-family: Robot2, Arial, sans-serif;
+    }
+    .containerDivider {
+        width: 100px;
+        height: 2px;
+        border-radius: 5px;
+        background-color: grey;
+    }
+    .customRow {
+        display: table;
+        table-layout: fixed;
+    }
+    .customColumn {
+        padding-left: 10px;
+        display: table-cell;
+    }
+    .betaButton {
+        background-color: #2096F3;
+        color: black;
+        padding: 8px 10px;
+        border: none;
+        border-radius: 10px;
+        width: 310px;
+        height: 50px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    .guideButton {
+        background-color: #8EC96F;
+        color: black;
+        padding: 8px 10px;
+        border: none;
+        border-radius: 10px;
+        width: 310px;
+        height: 50px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    button:hover {
+        background-color: grey;
+        color: white;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="centerContainer">
+      <div class="topNavBar">
+        <a href="https://squaredsoftware.co.uk/"><img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/sq.png"></img></a>
+        <a href="https://travelrecce.com/"><img src="https://raw.githubusercontent.com/travelrecce/travelrecce.github.io/master/assets/images/tr.png"></img></a>
+      </div>
+    </div>
+    <div class="paddedBody">
+      <div class="centerContainer">
+        <h1>
+            Known issues in travelrecce
+        </h1>
+        <h6>
+            last revised 31st August, 2021
+        </h6>
+      </div>
+      <br>
+      <h3>
+        travelrecce is a very new service, in the next few months we're going to be learning about all the cool ways our users are able to break it.
+      </h3>
+      <h3>
+        These issues will be documented here, with the aim of showing our users what we're actively working on fixing.
+      </h3>
+      <br>
+      <ul>
+        <h5>
+          31st August, 2021
+        </h5>
+        <h5>
+          Found in v1.0.1 (first version) (current version)
+        </h5>
+        <li>
+          <h3>
+            Sometimes when opening another user's trip from said user's profile page, the (current) user is served a grey (empty) screen.
+          </h3>
+          <h6>
+            Found by Squared
+          </h6>
+        </li>
+        <br>
+        <li>
+          <h3>
+            Depending on the number of trips in the user's feed, a trip's corresponding username may be false.  This number is usually 2, but may happen with different quantities.
+          </h3>
+          <h6>
+            Found by Squared
+          </h6>
+        </li>
+        <br>
+        <li>
+          <h3>
+            Maps will sometimes load in disregard for the user's device brightness (dark mode, light mode).  This makes an application in dark mode load a map profile optimised for light mode, aesthetically unpleasing.
+          </h3>
+          <h6>
+            Found by Squared
+          </h6>
+        </li>
+      </ul>
+      <br>
+    </div>
+  </body>
+</html>
+ 
