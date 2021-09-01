@@ -172,6 +172,14 @@
         padding: 0px;
         font-family: Roboto2, Arial, sans-serif;
     }
+    h4 {
+        color: green;
+        font-weight: 200;
+        font-size: 17.5px;
+        margin: 0px;
+        padding: 0px;
+        font-family: Roboto2, Arial, sans-serif;
+    }
     img {
         border: 2px solid white;
         width: 150px;
@@ -258,10 +266,28 @@
       <br>
       <ul>
         <h5>
+          1st September, 2021
+        </h5>
+        <h5>
+          Found in v1.0.2 (current version)
+        </h5>
+        <li>
+          <h3>
+            When updating a trips details, said details are not updated across the application.  Requires a refresh or restart to load changes.
+          </h3>
+          <h6>
+            Found by Squared
+          </h6>
+        </li>
+        <br>
+      </ul>
+      <br>
+      <ul>
+        <h5>
           31st August, 2021
         </h5>
         <h5>
-          Found in v1.0.1 (first version) (current version)
+          Found in v1.0.1 (first version)
         </h5>
         <li>
           <h3>
@@ -270,6 +296,9 @@
           <h6>
             Found by Squared
           </h6>
+          <h4>
+            Fixed in v1.0.2
+          </h4>
         </li>
         <br>
         <li>
@@ -279,11 +308,35 @@
           <h6>
             Found by Squared
           </h6>
+          <h4>
+            Fixed in v1.0.2
+          </h4>
+        </li>
+        <br>
+        <li>
+          <h3>
+            The entries of a trips 'liked by' page may take the user to an incorrect profile page.
+          </h3>
+          <h6>
+            Found by Squared
+          </h6>
+          <h4>
+            Fixed in v1.0.2
+          </h4>
         </li>
         <br>
         <li>
           <h3>
             Maps will sometimes load in disregard for the user's device brightness (dark mode, light mode).  This makes an application in dark mode load a map profile optimised for light mode, aesthetically unpleasing.
+          </h3>
+          <h6>
+            Found by Squared
+          </h6>
+        </li>
+        <br>
+        <li>
+          <h3>
+            When swiping between the user's profile and the application settings page, the user's profile blur matrix is not properly masked.  This blur restricts areas of the settings page while moving between pages, disappears after reaching the page.
           </h3>
           <h6>
             Found by Squared
