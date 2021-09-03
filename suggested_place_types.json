@@ -1,15 +1,15 @@
 [
     {
+        "name": "tourist",
+        "type": "tourist_attraction"
+    },
+    {
         "name": "restaurant",
         "type": "restaurant"
     },
     {
         "name": "accommodation",
         "type": "lodging"
-    },
-    {
-        "name": "tourist",
-        "type": "tourist_attraction"
     },
     {
         "name": "amusement",
@@ -22,9 +22,5 @@
     {
         "name": "park",
         "type": "park"
-    },
-    {
-        "name": "zoo",
-        "type": "zoo"
     }
 ]
